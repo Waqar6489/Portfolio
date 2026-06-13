@@ -55,7 +55,7 @@ export default function Navbar({ darkMode, setDarkMode }) {
           onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
           className="flex items-center gap-2 group"
         >
-          <span className="font-display font-bold text-white text-sm hidden sm:block"><code className='text-lg text-[#5DB8F8]'>{"< Waqar Ali />"}</code></span>
+          <span className="font-display font-bold text-white text-sm sm:block"><code className='text-lg text-[#5DB8F8]'>{"< Waqar Ali />"}</code></span>
         </button>
 
         {/* Desktop links */}
@@ -109,6 +109,8 @@ export default function Navbar({ darkMode, setDarkMode }) {
             transition={{ duration: 0.25 }}
             className="md:hidden glass-strong border-t border-white/5"
           >
+            
+          
             <div className="px-5 py-4 flex flex-col gap-1">
               {links.map((l) => (
                 <button
