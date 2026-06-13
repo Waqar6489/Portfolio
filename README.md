@@ -2,7 +2,7 @@
 
 A modern, fast, and fully responsive personal portfolio website built to showcase my development skills, projects, and tech stack. This portfolio features a futuristic dark-theme design with neon accents and clean filtering.
 
-Live Demo: [https://your-portfolio-link.vercel.app](https://your-portfolio-link.vercel.app) *(Replace with your live link)*
+Live Demo: [https://your-portfolio-link.vercel.app]
 
 ##  Features
 
@@ -14,6 +14,6 @@ Live Demo: [https://your-portfolio-link.vercel.app](https://your-portfolio-link.
 ##  Tech Stack
 
 - **Frontend:** React.js, Tailwind CSS
-- **Icons:** Lucide React
-- **Animations:** Custom CSS Transitions, ScrollReveal (Optional Hooks)
-- **Deployment:** Vercel / Netlify
+- **Icons:** Lucide React, React icon
+- **Animations:** Custom CSS Transitions, ScrollReveal
+- **Deployment:** Vercel
