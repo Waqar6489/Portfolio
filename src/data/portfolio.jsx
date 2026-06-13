@@ -1,5 +1,5 @@
 import { FaPython, FaHtml5, FaCss3Alt, FaWordpress, FaGithub, FaBootstrap, FaDatabase, FaArchive, FaGraduationCap, FaGlobe } from "react-icons/fa";
-import { SiDjango, SiJavascript, SiTailwindcss, SiPostgresql, SiMysql, SiOracle } from "react-icons/si";
+import { SiDjango, SiJavascript, SiTailwindcss, SiPostgresql, SiMysql } from "react-icons/si";
 import { TbApi } from "react-icons/tb"; // Excellent choice for REST API
 import { SiJsonwebtokens } from "react-icons/si";
 import { BiLogoFlask } from "react-icons/bi";
@@ -7,6 +7,8 @@ import { HiOutlineDesktopComputer } from "react-icons/hi";
 import { HiOutlineClipboardDocumentList } from "react-icons/hi2";
 import { GiTrophyCup } from "react-icons/gi";
 import { IoTrophy } from "react-icons/io5";
+import { GrOracle } from "react-icons/gr";
+
 
 
 
@@ -88,7 +90,7 @@ export const techIcons = [
   { name: "MySQL", icon: <SiMysql />, color: "#4479A1" },
   { name: "GitHub", icon: <FaGithub />, color: "#181717" },
   { name: "Bootstrap", icon: <FaBootstrap />, color: "#7952B3" },
-  { name: "Oracle APEX", icon: <SiOracle />, color: "#F80000" },
+  { name: "Oracle APEX", icon: <GrOracle />, color: "#F80000" },
   { name: "REST API", icon: <TbApi />, color: "#0052CC" }, // Updated to an official dev color
   { name: "JWT", icon: <SiJsonwebtokens />, color: "#D63AFF" },
 ]
