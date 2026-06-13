@@ -2,8 +2,7 @@ import { motion } from 'framer-motion';
 import { Github, Linkedin, Download, ArrowDown, MessageCircle, Mail  } from 'lucide-react';
 import { useTyping } from '../../hooks/useTyping';
 import { personalInfo } from '../../data/portfolio.jsx';
-import { FaReact,FaWordpress } from "react-icons/fa";
-import { SiDjango, SiReact } from "react-icons/si";
+import { SiDjango, SiReact, SiWordpress } from "react-icons/si";
 
 
 const roles = [
@@ -170,7 +169,7 @@ export default function Hero() {
             </div>
             <div className="absolute top-1/2 -right-12 glass rounded-xl px-3 py-1.5 text-xs font-semibold text-cyan-400 animate-float"
               style={{ animationDelay: '-2s', border: '1px solid rgba(34,211,238,0.3)' }}>
-              <FaWordpress size={20} />
+              <SiWordpress size={20} />
             </div>
           </div>
 
