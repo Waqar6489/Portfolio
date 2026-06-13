@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120">
+  <defs>
+    <!-- Cyan to Purple Neon Gradient -->
+    <linearGradient id="neonGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="50%" stop-color="#818cf8" />
+      <stop offset="100%" stop-color="#a78bfa" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Dark Background Capsule for Favicon -->
+  <rect width="120" height="120" rx="30" fill="#0f172a"/>
+  
+  <!-- Grouping to center all elements nicely -->
+  <g fill="none" stroke="url(#neonGlow)" stroke-width="8" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Left Bracket: < -->
+    <path d="M 25 45 L 12 60 L 25 75" />
+    
+    <!-- The letter: W -->
+    <path d="M 38 42 L 48 78 L 56 56 L 64 78 L 74 42" stroke-width="9" />
+    
+    <!-- Forward Slash: / -->
+    <path d="M 84 78 L 94 42" />
+    
+    <!-- Right Bracket: > -->
+    <path d="M 98 45 L 111 60 L 98 75" />
+  </g>
+</svg>
