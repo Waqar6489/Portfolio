@@ -2,7 +2,7 @@
 
 A modern, fast, and fully responsive personal portfolio website built to showcase my development skills, projects, and tech stack. This portfolio features a futuristic dark-theme design with neon accents and clean filtering.
 
-Live Demo: [https://your-portfolio-link.vercel.app]
+Live Demo: https://waqar-ali-portfolio-ten.vercel.app/
 
 ##  Features
 
