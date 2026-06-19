@@ -9,7 +9,6 @@ const roles = [
   'Full Stack Developer',
   'React + Django Engineer',
   'WordPress Expert',
-  'Problem Solver',
 ];
 
 export default function Hero() {
@@ -98,7 +97,7 @@ export default function Hero() {
             transition={{ duration: 0.6, delay: 0.4 }}
             className="flex flex-wrap items-center gap-3 justify-center lg:justify-start mb-10"
           >
-            <a href='/images/resume.pdf' download="Resume.pdf" className="btn-primary flex items-center gap-2">
+            <a href='/images/Waqar-Ali_Resume.pdf' download="Waqar-Ali_Resume.pdf" className="btn-primary flex items-center gap-2">
               <Download size={15} />
               Download Resume
             </a>

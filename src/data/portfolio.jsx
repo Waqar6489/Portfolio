@@ -1,7 +1,6 @@
-import { FaPython, FaHtml5, FaCss3Alt, FaWordpress, FaGithub, FaBootstrap, FaDatabase, FaArchive, FaGraduationCap, FaGlobe } from "react-icons/fa";
-import { SiDjango, SiJavascript, SiTailwindcss, SiPostgresql, SiMysql } from "react-icons/si";
+import { FaPython, FaHtml5, FaCss3Alt, FaWordpress, FaGithub, FaBootstrap, FaDatabase,FaElementor, FaArchive, FaGraduationCap, FaGlobe } from "react-icons/fa";
+import { SiDjango, SiJavascript, SiTailwindcss, SiPostgresql, SiMysql, SiWoocommerce,SiJsonwebtokens  } from "react-icons/si";
 import { TbApi } from "react-icons/tb"; // Excellent choice for REST API
-import { SiJsonwebtokens } from "react-icons/si";
 import { BiLogoFlask } from "react-icons/bi";
 import { HiOutlineDesktopComputer } from "react-icons/hi";
 import { HiOutlineClipboardDocumentList } from "react-icons/hi2";
@@ -86,6 +85,8 @@ export const techIcons = [
   { name: "CSS3", icon: <FaCss3Alt />, color: "#1572B6" },
   { name: "Tailwind", icon: <SiTailwindcss />, color: "#06B6D4" },
   { name: "WordPress", icon: <FaWordpress />, color: "#21759B" },
+  { name: "WooCommerce", icon: <SiWoocommerce />, color: "#7F54B3" },
+  { name: "Elementor", icon: <FaElementor />, color: "#FF0000" },
   { name: "PostgreSQL", icon: <SiPostgresql />, color: "#336791" },
   { name: "MySQL", icon: <SiMysql />, color: "#4479A1" },
   { name: "GitHub", icon: <FaGithub />, color: "#181717" },

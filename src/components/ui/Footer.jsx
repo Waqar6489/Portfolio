@@ -7,7 +7,7 @@ export default function Footer() {
       <div className="max-w-6xl mx-auto px-5 sm:px-8 flex flex-col sm:flex-row items-center justify-between gap-4">
         <div className="flex items-center gap-2">
           
-          <span className="text-slate-400 text-sm"><code className='text-md '>{"< Waqar Ali />"}</code></span>
+          <a href='#'><span className="text-slate-400 text-sm"><code className='text-md '>{"< Waqar Ali />"}</code></span></a>
         </div>
 
         <p className="text-slate-600 text-xs flex items-center gap-1">
