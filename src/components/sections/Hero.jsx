@@ -1,8 +1,10 @@
 import { motion } from 'framer-motion';
-import { Github, Linkedin, Download, ArrowDown, MessageCircle, Mail  } from 'lucide-react';
+import { Github, Linkedin, Download, ArrowDown, Mail  } from 'lucide-react';
 import { useTyping } from '../../hooks/useTyping';
 import { personalInfo } from '../../data/portfolio.jsx';
 import { SiDjango, SiReact, SiWordpress } from "react-icons/si";
+import { FaFolder } from "react-icons/fa";
+
 
 
 const roles = [
@@ -102,13 +104,13 @@ export default function Hero() {
               Download Resume
             </a>
             <a
-              href={personalInfo.whatsapp}
-              target="_blank"
+              href='#projects'
+              
               rel="noopener noreferrer"
               className="btn-outline flex items-center gap-2"
             >
-              <MessageCircle size={15} />
-              WhatsApp Me
+              <FaFolder size={15} />
+              See Portfolio
             </a>
           </motion.div>
 
