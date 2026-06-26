@@ -14,7 +14,7 @@ const roles = [
 ];
 
 export default function Hero() {
-  const typed = useTyping(roles, 75, 2000);
+  const typed = useTyping(roles, 76, 2000);
 
   return (
     <section id="hero" className="relative min-h-screen flex items-center justify-center overflow-hidden">
